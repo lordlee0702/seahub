@@ -716,7 +716,7 @@ def libraries(request):
 
     return render(request, 'libraries.html', {
             "allow_public_share": allow_public_share,
-            "guide_enabled": guide_enabled,
+            "guide_enabled": False,  # disable welcome popup window
             "sub_lib_enabled": sub_lib_enabled,
             'enable_wiki': settings.ENABLE_WIKI,
             'enable_upload_folder': settings.ENABLE_UPLOAD_FOLDER,
@@ -1225,3 +1225,8 @@ def react_fake_view(request):
 @login_required
 def react_group(request, group_id):
     return render(request, "react_app.html")
+
+def social_error(request):
+    return render(request, 'error.html', {
+        'error_msg': 'Failed to login, try again later.'
+    })
