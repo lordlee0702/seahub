@@ -15,7 +15,7 @@ class TreeNode {
 
   }
 
-  getParentNode() {
+  getParentNode(node) {
 
   }
 
@@ -67,6 +67,14 @@ class TreeNode {
 
   }
 
+  traverseDF() {
+
+  }
+
+  traverseBF() {
+
+  }
+
   loadedNode() {
 
   }
@@ -75,16 +83,24 @@ class TreeNode {
     
   }
 
+  collapseNode() {
+
+  }
+
+  isNodeChild() {
+
+  }
 
 
-  
+  clone() {
 
+  }
 
+  serializeToJson() {
 
+  }
 
+  deserializefromJson(json) {
 
-
-
-
-
+  }
 }
