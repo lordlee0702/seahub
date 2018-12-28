@@ -1048,6 +1048,7 @@ table .menu-toggle {
     display: flex;
     align-items: center;
     width: max-content;
+    max-width: 50px;
 }
 
 .item-meta-info {

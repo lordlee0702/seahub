@@ -31,6 +31,7 @@
   align-items: center;
   color: #ffffff;
   overflow: hidden;
+  padding: 10px;
 }
 
 .show-tag-selected {
@@ -105,7 +106,6 @@
 
 .tags-summary-bar {
   margin: 4px 16px;
-  height: 40px;
   border: 1px solid #868e96;
   border-radius: 5px;
 }
